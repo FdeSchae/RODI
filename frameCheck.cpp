@@ -1,5 +1,5 @@
 #include <opencv2/opencv.hpp>
-#include "opencv2/core/cuda.hpp"
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -104,6 +104,23 @@ tuple<bool, Point> frameCheck(Mat frame) {
 }
 
 
+//// method that transforms the captured buffer into an OpenCV Mat
+//Mat ConvertToCVmat(ImagePtr pImage)
+//{
+//    ImagePtr convertedImage = pImage->Convert(PixelFormat_BGR8, NEAREST_NEIGHBOR);
+//
+//    unsigned int XPadding = convertedImage->GetXPadding();
+//    unsigned int YPadding = convertedImage->GetYPadding();
+//    unsigned int rowsize = convertedImage->GetWidth();
+//    unsigned int colsize = convertedImage->GetHeight();
+//
+//    //image data contains padding. When allocating Mat container size, you need to account for the X,Y image data padding. 
+//    Mat cvimg = cv::Mat(colsize + YPadding, rowsize + XPadding, CV_8UC3, convertedImage->GetData(), convertedImage->GetStride());
+//
+//    return cvimg;
+//
+//}
+
 
 int main()
 {
@@ -114,6 +131,7 @@ int main()
     Mat background = imread("C:/Users/patry/Desktop/RODI/back.tiff");
     Mat frame = imread("C:/Users/patry/Desktop/RODI/fish2.tiff");
     
+    // Resize images
     resize(frame, frame, Size(747, 467), INTER_LINEAR);
     resize(background, background, Size(747, 467), INTER_LINEAR);
 
@@ -125,17 +143,17 @@ int main()
         return -1;
     }
 
+    // Checking frame
     bool answer;
     Point center;
-
     tie(answer, center) = frameCheck(frame, background);
+
+
     chrono::steady_clock::time_point end =chrono::steady_clock::now();
     cout << "----------------------------------------------------------------" << endl;
     cout << "Time difference = " << chrono::duration_cast<chrono::milliseconds>(end - begin).count() << "[ms]" << std::endl;
     cout << "----------------------------------------------------------------" << endl;
 
-
-    //system("cls");
     cout << "----------------------------------------------------------------" << endl;
     cout << "Is the object in the frame?: " << answer << endl;
     cout << "x= " << center.x << "\t";
