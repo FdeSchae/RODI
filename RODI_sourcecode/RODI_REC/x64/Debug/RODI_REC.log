@@ -1,0 +1,5 @@
+﻿  RODI_REC.cpp
+c:\users\deschaetzen\documents\visual studio 2015\projects\rodi_rec\rodi_rec.cpp(518): warning C4018: '<': signed/unsigned mismatch
+c:\users\deschaetzen\documents\visual studio 2015\projects\rodi_rec\rodi_rec.cpp(556): warning C4018: '<': signed/unsigned mismatch
+  RODI_REC.vcxproj -> C:\Users\DeSchaetzen\Documents\Visual Studio 2015\Projects\x64\Debug\RODI_REC.exe
+  RODI_REC.vcxproj -> C:\Users\DeSchaetzen\Documents\Visual Studio 2015\Projects\x64\Debug\RODI_REC.pdb (Full PDB)
