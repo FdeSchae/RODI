@@ -1,0 +1,15 @@
+﻿  RODI_CONV.cpp
+RODI_CONV.cpp(89): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+RODI_CONV.cpp(90): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+RODI_CONV.cpp(92): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+RODI_CONV.cpp(93): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+RODI_CONV.cpp(94): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+RODI_CONV.cpp(95): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+RODI_CONV.cpp(136): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+RODI_CONV.cpp(144): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+RODI_CONV.cpp(154): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+RODI_CONV.cpp(291): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  RODI_CONV.vcxproj -> C:\Users\DeSchaetzen\Documents\Visual Studio 2015\Projects\x64\Release\RODI_CONV.exe
+  RODI_CONV.vcxproj -> C:\Users\DeSchaetzen\Documents\Visual Studio 2015\Projects\x64\Release\RODI_CONV.pdb (Full PDB)
