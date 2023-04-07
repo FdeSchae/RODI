@@ -1,3 +1,4 @@
+# Machine learning classifer used in the proof of concept of the Riverine Organism Drift Imager
 This Resnet-18 based machine learning classifier was developed by Mikko Impiö, based on his Taxonomist classifier (https://github.com/mikkoim/taxonomist), for the application on data collected from the Riverine Organism Drift Imager (RODI). This work was described and published in: "placeholder".
 
 # Installation
