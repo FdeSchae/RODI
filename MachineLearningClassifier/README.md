@@ -18,6 +18,7 @@ conda activate rodi
 # Preprocessing
 1. Ensure that the image dataset is located under data/raw/(e.g. Induced_Organism_Drift_2022)
 2. Ensure that the annotations file is located under data/annotations (e.g. Induced_Organism_Drift_2022_annotations_4splits_family.csv)
+   Download from: https://www.kaggle.com/datasets/fredericdeschaetzen/induced-organism-drift-2022
 3. Ensure that a text-file containgin a list of the class names is created and placed under data/classes (e.g. rodi_01_family.txt)
 4. Performe train-test-val-splits, in this work, a four-way groupstratified Kfold was performed.
 
