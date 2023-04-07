@@ -1,0 +1,62 @@
+name: env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  
+  # DL
+  - pytorch>=1.7.0
+  - torchvision>=0.8
+  - cudatoolkit>=11
+  - pytorch-lightning
+  - optuna
+  - wandb
+  
+  # DS
+  - numpy
+  - scipy
+  - scikit-learn>=0.22
+  - scikit-image
+  - pandas>=1.0.0
+  - pandas-profiling
+  - opencv
+  - pillow>=6.0.0
+  - matplotlib
+  - seaborn
+  - bokeh
+  - tqdm
+  - numba
+  - dask
+  - dask-ml
+  - joblib 
+
+  # ipython + notebooks
+  - ipython
+  - notebook
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+
+  # Testing + linting
+  - pylint
+  - pytest
+
+  # Others
+  - openpyxl
+  - cupy
+  - pkg-config
+  - compilers
+  - libjpeg-turbo
+
+  - pip
+  - pip:
+    - ray
+    - ray[tune]
+    - hydra-core
+    - timm
+    - kornia
+    - black
+    - albumentations
+    - ffcv

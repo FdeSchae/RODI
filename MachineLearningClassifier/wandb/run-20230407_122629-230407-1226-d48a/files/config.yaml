@@ -1,0 +1,920 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.1
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: gradients/model\.proj_head\.0\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.proj_head\.0\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.proj_head\.0\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.proj_head\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.proj_head\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.proj_head\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.1\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.downsample\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer4\.0\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.1\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.downsample\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer3\.0\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.1\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.downsample\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer2\.0\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.1\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.conv2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.conv2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.conv2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.layer1\.0\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.bn1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.bn1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.bn1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.bn1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.bn1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.bn1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.conv1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.conv1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/model\.base_model\.conv1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: train/loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: val/loss
+      5: 1
+      6:
+      - 1
+    - 1: val/acc
+      5: 1
+      6:
+      - 1
+    - 1: val/f1
+      5: 1
+      6:
+      - 1
+    - 1: train/loss_avg
+      5: 1
+      6:
+      - 1
+    - 1: train/acc
+      5: 1
+      6:
+      - 1
+    - 1: train/f1
+      5: 1
+      6:
+      - 1
+    python_version: 3.9.13
+    start_time: 1680863189.402034
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 41
+      - 53
+      - 55
+      - 63
+      - 80
+      2:
+      - 1
+      - 5
+      - 9
+      - 41
+      - 53
+      - 55
+      - 63
+      - 80
+      3:
+      - 1
+      - 7
+      - 13
+      - 14
+      - 23
+      4: 3.9.13
+      5: 0.13.1
+      8:
+      - 3
+      - 5
+aug:
+  desc: null
+  value: aug-02
+auto_lr:
+  desc: null
+  value: true
+batch_size:
+  desc: null
+  value: 128
+class_map:
+  desc: null
+  value: data/classes/rodi_01_family.txt
+criterion:
+  desc: null
+  value: cross-entropy
+csv_path:
+  desc: null
+  value: data/splits/Induced_Organism_Drift_2022_annotations_4splits_family.csv
+data_folder:
+  desc: null
+  value: data/raw/Induced_Organism_Drift_2022/
+dataset_name:
+  desc: null
+  value: rodi
+debug:
+  desc: null
+  value: false
+deterministic:
+  desc: null
+  value: true
+early_stopping:
+  desc: null
+  value: true
+early_stopping_patience:
+  desc: null
+  value: 10
+fold:
+  desc: null
+  value: 0
+freeze_base:
+  desc: null
+  value: false
+global_seed:
+  desc: null
+  value: 123
+imsize:
+  desc: null
+  value: 224
+label:
+  desc: null
+  value: family
+load_to_memory:
+  desc: null
+  value: false
+log_dir:
+  desc: null
+  value: rodi
+lr:
+  desc: null
+  value: 0.0001
+max_epochs:
+  desc: null
+  value: 200
+min_epochs:
+  desc: null
+  value: 5
+model:
+  desc: null
+  value: resnet18
+model_weights:
+  desc: null
+  value: null
+n_classes:
+  desc: null
+  value: 8
+new_lr:
+  desc: null
+  value: 0.000630957344480193
+opt:
+  desc: null
+  value: adamw
+opt/name:
+  desc: null
+  value: adamw
+out_folder:
+  desc: null
+  value: logs
+out_prefix:
+  desc: null
+  value: rodi
+pretrained:
+  desc: null
+  value: true
+smoke_test:
+  desc: null
+  value: false
+tta:
+  desc: null
+  value: false

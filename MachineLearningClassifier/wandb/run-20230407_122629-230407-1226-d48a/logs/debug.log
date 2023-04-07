@@ -1,0 +1,29 @@
+2023-04-07 12:26:29,357 INFO    MainThread:16868 [wandb_setup.py:_flush():76] Configure stats pid to 16868
+2023-04-07 12:26:29,357 INFO    MainThread:16868 [wandb_setup.py:_flush():76] Loading settings from C:\Users\DeSchaetzen\.config\wandb\settings
+2023-04-07 12:26:29,357 INFO    MainThread:16868 [wandb_setup.py:_flush():76] Loading settings from C:\Users\DeSchaetzen\Desktop\RODI\MachineLearningClassifier\wandb\settings
+2023-04-07 12:26:29,357 INFO    MainThread:16868 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2023-04-07 12:26:29,357 INFO    MainThread:16868 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts\\03_train.py', 'program': 'C:\\Users\\DeSchaetzen\\Desktop\\RODI\\MachineLearningClassifier\\scripts\\03_train.py'}
+2023-04-07 12:26:29,370 INFO    MainThread:16868 [wandb_init.py:_log_setup():461] Logging user logs to .\wandb\run-20230407_122629-230407-1226-d48a\logs\debug.log
+2023-04-07 12:26:29,370 INFO    MainThread:16868 [wandb_init.py:_log_setup():462] Logging internal logs to .\wandb\run-20230407_122629-230407-1226-d48a\logs\debug-internal.log
+2023-04-07 12:26:29,370 INFO    MainThread:16868 [wandb_init.py:init():495] calling init triggers
+2023-04-07 12:26:29,370 INFO    MainThread:16868 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2023-04-07 12:26:29,370 INFO    MainThread:16868 [wandb_init.py:init():548] starting backend
+2023-04-07 12:26:29,370 INFO    MainThread:16868 [wandb_init.py:init():552] setting up manager
+2023-04-07 12:26:29,381 INFO    MainThread:16868 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2023-04-07 12:26:29,402 INFO    MainThread:16868 [wandb_init.py:init():558] backend started and connected
+2023-04-07 12:26:29,402 INFO    MainThread:16868 [wandb_init.py:init():636] updated telemetry
+2023-04-07 12:26:29,405 INFO    MainThread:16868 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2023-04-07 12:26:30,275 INFO    MainThread:16868 [wandb_run.py:_on_init():1982] communicating current version
+2023-04-07 12:26:30,408 INFO    MainThread:16868 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.14.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-07 12:26:30,408 INFO    MainThread:16868 [wandb_init.py:init():700] starting run threads in backend
+2023-04-07 12:26:30,767 INFO    MainThread:16868 [wandb_run.py:_console_start():1962] atexit reg
+2023-04-07 12:26:30,767 INFO    MainThread:16868 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2023-04-07 12:26:30,767 INFO    MainThread:16868 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2023-04-07 12:26:30,767 INFO    MainThread:16868 [wandb_run.py:_redirect():1907] Redirects installed.
+2023-04-07 12:26:30,771 INFO    MainThread:16868 [wandb_init.py:init():732] run started, returning control to user process
+2023-04-07 12:26:30,771 INFO    MainThread:16868 [wandb_watch.py:watch():47] Watching
+2023-04-07 12:26:30,779 INFO    MainThread:16868 [wandb_run.py:_config_callback():1152] config_cb None None {'data_folder': 'data/raw/Induced_Organism_Drift_2022/', 'dataset_name': 'rodi', 'csv_path': 'data/splits/Induced_Organism_Drift_2022_annotations_4splits_family.csv', 'fold': 0, 'label': 'family', 'n_classes': 8, 'class_map': 'data/classes/rodi_01_family.txt', 'imsize': 224, 'batch_size': 128, 'aug': 'aug-02', 'load_to_memory': False, 'tta': False, 'model': 'resnet18', 'criterion': 'cross-entropy', 'model_weights': None, 'min_epochs': 5, 'max_epochs': 200, 'early_stopping': True, 'early_stopping_patience': 10, 'lr': 0.0001, 'opt': 'adamw', 'auto_lr': True, 'deterministic': True, 'log_dir': 'rodi', 'out_folder': 'logs', 'out_prefix': 'rodi', 'debug': False, 'smoke_test': False, 'global_seed': 123}
+2023-04-07 12:54:07,354 INFO    MainThread:16868 [wandb_run.py:_config_callback():1152] config_cb None None {'new_lr': 0.000630957344480193}
+2023-04-07 12:54:08,310 INFO    MainThread:16868 [wandb_run.py:_config_callback():1152] config_cb None None {'model': 'resnet18', 'freeze_base': False, 'pretrained': True, 'n_classes': 8, 'criterion': 'cross-entropy', 'opt/name': 'adamw', 'lr': 0.0001}
