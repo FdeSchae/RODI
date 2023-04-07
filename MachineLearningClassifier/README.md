@@ -55,7 +55,7 @@ python scripts/05_combine_cv_predictions.py --model_folder "logs/rodi/rodi_resne
 Cross-validation predictions are saved in model directory ```logs/rodi/$MODEL_NAME/predictions```
 
 # Analyze
-Analyze the results for example with the ```notebooks/evaluate.ipynb```-notebook
+Analyze the results for example with the ```notebooks/evaluate.ipynb```-notebook. Jupyter notebook should have been installed with Anaconda 3. 
 
 
 
